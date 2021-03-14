@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+body {
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #eeeee6;
+  padding: 1rem; }
+  @media (max-width: 75em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 50em) {
+    body {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    body {
+      font-size: 50%; } }
+  @media (max-width: 61.875em) {
+    body {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    body {
+      font-size: 75%; } }
+
+.nav__button {
+  margin: .5rem 0 1rem .5rem; }
+
+.nav__link {
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #f19933;
+  background-image: linear-gradient(#f19933, #f19933);
+  border-bottom: 0.2rem solid #f19933;
+  text-decoration: none;
+  padding: .8rem 1.3rem;
+  border-radius: .3rem; }
+  .nav__link:hover {
+    color: #000;
+    text-decoration: none; }
+
+.honey__link {
+  font-size: 1rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #d02c30;
+  background-image: linear-gradient(#d02c30, #c72029);
+  border-bottom: .2rem solid #b1001a;
+  padding: .9rem 1.8rem;
+  text-decoration: none;
+  border-radius: .3rem; }
+  .honey__link:hover {
+    color: #fff;
+    text-decoration: none; }
+
+.swag__button {
+  margin-top: 1.5rem; }
+
+.swag__link {
+  font-size: 1rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  border-bottom: .2rem solid #dddd !important;
+  text-decoration: none;
+  padding: .8rem 1.3rem;
+  border-radius: .3rem; }
+  .swag__link:hover {
+    color: #000;
+    text-decoration: none; }
+
+.order__button {
+  margin-bottom: 1rem; }
+
+.order__link img {
+  width: 10rem;
+  height: 3.5rem; }
+
+.order__link:not(:last-child) {
+  margin-right: .5rem; }
+
+.health__content h4.title {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: .5rem; }
+
+.health__content p.para {
+  font-size: .8rem;
+  color: #fff; }
+
+.honey__content p.paraC {
+  font-size: 1rem;
+  color: #fff;
+  padding: .5rem 0; }
+
+.explore__contentBg h3.main {
+  font-size: 1.5rem;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: .1px; }
+
+.explore__contentBg h2.sub {
+  font-size: 2rem;
+  color: #d02c30;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.explore__contentBg p.para {
+  font-size: 1.1rem;
+  color: #000; }
+
+.swag__content h3.main {
+  font-size: 2.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.swag__content h4.sub {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.get__content h2.title {
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: .5rem; }
+
+.order__content h3.title {
+  font-size: 1.3rem;
+  color: #404041;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.order__content h2.now {
+  font-size: 3rem;
+  color: #d02c30;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.order__content p.para {
+  font-size: 1.2rem;
+  color: #404041; }
+
+.order__content p.small {
+  font-size: .9rem;
+  color: #404041; }
+
+.family__content h2.title {
+  font-size: 1.6rem;
+  color: #d02c30;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.explore {
+  margin-top: 1rem; }
+  .explore__contentBg {
+    padding: 7rem;
+    background-color: #f4deb3;
+    height: 100%; }
+  .explore__images img {
+    width: 100%;
+    height: 30rem; }
+    @media (max-width: 37.5em) {
+      .explore__images img {
+        height: 20rem; } }
+
+.family {
+  margin: 1rem 0; }
+  .family__images {
+    margin-bottom: 1rem; }
+  .family__images img {
+    width: 100%;
+    height: 16rem; }
+  .family__space:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.order {
+  padding-top: 7rem;
+  background-image: url(/images/For-Open-location-order-now-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 26rem; }
+
+.get {
+  margin: 1rem 0;
+  padding: .2rem 0;
+  background-color: #d02c30; }
+
+.social__contentF {
+  background-image: url(/images/1-in-health-safety-facebook-image-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  padding: 11rem 0 1rem 1rem; }
+
+.social__contentT {
+  background-image: url(/images/twitter-2-image-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  padding: 11rem 0 1rem 1rem; }
+
+.social__contentY {
+  background-image: url(/images/youtube-3-image-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  padding: 11rem 0 1rem 1rem; }
+
+.social__contentI {
+  background-image: url(/images/instagram-4-image-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+  padding: 11rem 0 1rem 1rem; }
+
+.social__icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #fff; }
+
+.social__space:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.swag {
+  margin-top: 1rem;
+  padding-top: 7rem;
+  background-image: url(/images/Honey-sesame-swag-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 28rem; }
+
+.bottom {
+  padding: 1rem .5rem .5rem .5rem;
+  margin-top: 1rem;
+  background-color: #737578; }
+  .bottom__list {
+    list-style: none; }
+  .bottom__item {
+    display: inline-block; }
+  .bottom__item:not(:last-child) {
+    margin-right: 1rem; }
+  .bottom__link {
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px; }
+    .bottom__link:hover {
+      color: #fff;
+      text-decoration: none; }
+  .bottom__listS {
+    list-style: none; }
+  .bottom__itemS {
+    display: inline-block; }
+  .bottom__itemS:not(:last-child) {
+    margin-right: 2rem; }
+  .bottom__icon {
+    width: 1.4rem;
+    height: 1.4rem;
+    fill: #fff; }
+
+.health {
+  margin-top: 8rem;
+  background-color: #2d2a26; }
+
+.honey {
+  background-image: url(/images/Honey-sesame-chicken-bg-min.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33rem;
+  padding-top: 7rem;
+  margin-top: .1rem; }
+  .honey__images img {
+    width: 100%;
+    height: 10rem; }
+
+.navbar {
+  background-image: linear-gradient(#d02c30, rgba(208, 44, 48, 0.95)); }
+  .navbar-brand img {
+    width: 5rem; }
+
+.ml-auto {
+  margin-left: auto !important; }
+
+.nav-link {
+  font-size: 1rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  letter-spacing: 2px; }
+
+.top {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  left: 1rem;
+  z-index: 1030; }
+
+.navbar-toggler {
+  border: none !important; }
+
+.toggler-btn {
+  border: 2px solid #f19933;
+  padding: 5px;
+  transition: all 2s ease; }
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 5px;
+  background: #f19933;
+  transition: all 0.5s ease; }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px); }

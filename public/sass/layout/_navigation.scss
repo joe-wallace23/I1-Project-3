@@ -1,0 +1,51 @@
+.navbar{
+    background-image: linear-gradient(rgb(208, 44, 48), rgba(208, 44, 48, 0.95));
+    &-brand img{
+        width: 5rem;
+    }
+
+}
+.ml-auto{
+    margin-left: auto !important;
+}
+.nav{
+    &-link{
+        font-size: 1rem;
+        color: #fff !important;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+.top{
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        left: 1rem;
+        z-index: 1030;
+    
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+.toggler-btn{
+    border: 2px solid $button-color;
+    padding: 5px;
+    transition: all 2s ease;
+}
+.bar{
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+    background: $button-color;
+    transition: all 0.5s ease;
+}
+.change .bar1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.change .bar2{
+    opacity: 0;
+}
+.change .bar3{
+    transform: rotate(45deg) translate(-5px, -8px);
+}

@@ -1,0 +1,48 @@
+.get{
+    margin: 1rem 0;
+    padding: .2rem 0;
+    background-color: $panda-main-color;
+}
+
+.social{
+    &__contentF{
+        background-image: url(/images/1-in-health-safety-facebook-image-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15rem;
+        padding: 11rem 0 1rem 1rem;
+    }
+    &__contentT{
+        background-image: url(/images/twitter-2-image-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15rem;
+        padding: 11rem 0 1rem 1rem;
+    }
+    &__contentY{
+        background-image: url(/images/youtube-3-image-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15rem;
+        padding: 11rem 0 1rem 1rem;
+    }
+    &__contentI{
+        background-image: url(/images/instagram-4-image-min.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15rem;
+        padding: 11rem 0 1rem 1rem;
+    }
+    &__icon{
+        width: 2.5rem;
+        height: 2.5rem;
+        fill: #fff;
+    }
+    &__space:not(:last-child){
+        margin-bottom: 2rem;
+    }
+}

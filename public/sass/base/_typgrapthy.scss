@@ -1,0 +1,96 @@
+.health{
+    &__content h4.title{
+        font-size: 1.6rem;
+        color: #fff;
+        margin-top: .5rem;
+    }
+    &__content p.para{
+        font-size: .8rem;
+        color: #fff;
+    }
+}
+.honey{
+    &__content p.paraC{
+        font-size: 1rem;
+        color: #fff;
+        padding: .5rem 0;
+    }
+}
+
+.explore{
+   &__contentBg h3.main{
+     font-size: 1.5rem;
+     color: #000;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     margin-bottom: .1px;
+   }
+   &__contentBg h2.sub{
+       font-size: 2rem;
+       color: $panda-main-color;
+       text-transform: uppercase;
+       letter-spacing: 1px;
+   }
+   &__contentBg p.para{
+    font-size: 1.1rem;
+       color: #000;
+   }
+}
+
+.swag{
+  &__content h3.main{
+      font-size: 2.8rem;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }  
+  &__content h4.sub{
+      font-size: 1.5rem;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+}
+
+.get{
+  &__content h2.title{
+      font-size: 1.6rem;
+      color: #fff;
+      text-transform: uppercase;
+      padding-top: .5rem;
+  }
+}
+
+.order{
+    &__content h3.title{
+        font-size: 1.3rem;
+        color: #404041;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    &__content h2.now{
+        font-size: 3rem;
+        color: $panda-main-color;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    &__content p.para{
+        font-size: 1.2rem;
+        color: #404041;
+
+    }
+    &__content p.small{
+        font-size: .9rem;
+        color:#404041 ;
+
+    }
+}
+
+.family{
+    &__content h2.title{
+        font-size: 1.6rem;
+        color: $panda-main-color;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+}
